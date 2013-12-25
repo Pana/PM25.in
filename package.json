@@ -1,0 +1,19 @@
+{
+  "name": "pm25-map",
+  "version": "0.0.0",
+  "description": "pm25 data in different kind map",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pm2.5",
+    "map"
+  ],
+  "author": "Pana",
+  "license": "BSD-2-Clause"
+}
