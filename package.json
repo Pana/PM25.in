@@ -1,5 +1,5 @@
 {
-  "name": "pm25-map",
+  "name": "pm25in",
   "version": "0.0.0",
   "description": "pm25 data in different kind map",
   "main": "index.js",
