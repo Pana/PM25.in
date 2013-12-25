@@ -2,7 +2,7 @@ PM25.in
 =======
 
 [PM25.in](http://www.pm25.in/)是BestApp工作室开放的PM2.5查询接口, 提供空气质量PM2.5实时查询接口
-所有接口免费. 数据来源于数据全部来源于网友提供的国家环保网站公开数据.
+所有接口免费. 数据全部来源于网友提供的国家环保网站公开数据.
 
 
 
@@ -11,7 +11,7 @@ PM25.in
     npm install pm25in
 
 ## How to use
-`5j1znBVAsnSf5xQyNQyq` 公有token
+公有token: `"5j1znBVAsnSf5xQyNQyq"` 
 
 ```
     var pm25 =require('pm25in');
