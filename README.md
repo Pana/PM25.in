@@ -49,7 +49,7 @@ PM25.in
 * 共有token为大家共用, 可能会提示超过使用次数限制, 建议申请自己的token
 
 ## TEST
-申请自己token, 修改test/test.js 添加自己token
+申请自己token, 修改test/test.js 添加自己token, 默认使用公共token
     
     npm test
 
