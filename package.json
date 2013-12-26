@@ -6,7 +6,9 @@
   "dependencies": {
     "request": "~2.30.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.16.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +17,5 @@
     "map"
   ],
   "author": "Pana",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
