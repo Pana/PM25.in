@@ -10,7 +10,7 @@
     "mocha": "~1.16.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make"
   },
   "keywords": [
     "pm2.5",
