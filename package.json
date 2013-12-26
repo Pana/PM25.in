@@ -1,6 +1,6 @@
 {
   "name": "pm25in",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pm25 data in different kind map",
   "main": "index.js",
   "dependencies": {

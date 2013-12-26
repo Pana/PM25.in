@@ -48,9 +48,14 @@ PM25.in
 * 返回数据字段说明可参看 pm25.fields
 * 共有token为大家共用, 可能会提示超过使用次数限制, 建议申请自己的token
 
-## TODO
+## TEST
+申请自己token, 修改test/test.js 添加自己token
+    
+    npm test
 
-* 测试
+执行测试
+
+注: 有的接口报错可能是请求次数过多导致
 
 
 ## 相关资源
