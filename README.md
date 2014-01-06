@@ -15,7 +15,7 @@ PM25.in
 
 ```
     var pm25 =require('pm25in');
-    pm25.token = "5j1znBVAsnSf5xQyNQyq"  // 访问token
+    pm25.token = "5j1znBVAsnSf5xQyNQyq"  // 设置访问token
     pm25.aqi_ranking(function(err, data){
         console.log(err, data);
     });
@@ -46,9 +46,9 @@ PM25.in
 * 目前接口为Beta版, 有访问次数限制, 具体参看官方文档
 * 接口具体参数参看官方文档
 * 返回数据字段说明可参看 pm25.fields
-* 共有token为大家共用, 可能会提示超过使用次数限制, 建议申请自己的token
+* 公有token为大家共用, 可能会提示超过使用次数限制, 建议申请自己的token
 
-## TEST
+## 测试
 申请自己token, 修改test/test.js 添加自己token, 默认使用公共token
     
     npm test
@@ -63,3 +63,11 @@ PM25.in
 * http://www.pm25.in/
 * http://www.chapm25.com/
 * http://aqicn.org/city/beijing/
+
+## TODO
+
+* 添加参数类型检查
+
+
+## License
+MIT

@@ -1,7 +1,7 @@
 {
   "name": "pm25in",
   "version": "0.0.2",
-  "description": "pm25 data in different kind map",
+  "description": "pm25 data API of pm25.in",
   "main": "index.js",
   "dependencies": {
     "request": "~2.30.0"
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "pm2.5",
-    "map"
+    "China"
   ],
   "author": "Pana",
   "license": "MIT"
