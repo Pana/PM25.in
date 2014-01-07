@@ -1,6 +1,6 @@
 {
   "name": "pm25in",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "pm25 data API of pm25.in",
   "main": "index.js",
   "dependencies": {
