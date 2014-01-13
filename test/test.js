@@ -6,93 +6,93 @@ var pm25 = require('../index')
 var opts = {city: '北京'};
 
 describe('city25', function(){
-    it('', function(done){
-        pm25.city25(function(err, data){
+    it('api test', function(done){
+        pm25.city25(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('city10', function(){
-    it('', function(done){
-        pm25.city10(function(err, data){
+    it('api test', function(done){
+        pm25.city10(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('city_co', function(){
-    it('', function(done){
-        pm25.city_co(function(err, data){
+    it('api test', function(done){
+        pm25.city_co(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('city_no2', function(){
-    it('', function(done){
-        pm25.city_no2(function(err, data){
+    it('api test', function(done){
+        pm25.city_no2(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('city_so2', function(){
-    it('', function(done){
-        pm25.city_so2(function(err, data){
+    it('api test', function(done){
+        pm25.city_so2(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('city_o3', function(){
-    it('', function(done){
-        pm25.city_o3(function(err, data){
+    it('api test', function(done){
+        pm25.city_o3(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('aqi_details', function(){
-    it('', function(done){
-        pm25.aqi_details(function(err, data){
+    it('api test', function(done){
+        pm25.aqi_details(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 
 describe('aqi', function(){
-    it('', function(done){
-        pm25.aqi(function(err, data){
+    it('api test', function(done){
+        pm25.aqi(opts, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, opts);
+        });
     });
 });
 
 describe('station_aqi', function(){
-    it('', function(done){
-        pm25.station_aqi(function(err, data){
+    it('api test', function(done){
+        pm25.station_aqi({station_code: '1001A'}, function(err, data){
             assert.equal(err, null);
             // console.log(data);
             done();
-        }, {station_code: '1001A'});
+        });
     });
 });
 
@@ -121,19 +121,19 @@ describe('city_stations', function(){
 
     it('city station list should return a array', function(done){
 
-        pm25.city_stations(function(err, data){
+        pm25.city_stations(opts, function(err, data){
             assert.equal(err, null);
             assert.equal(data.city, '北京');
             assert.equal(Array.isArray(data.stations), true);
             assert.equal(data.stations.length > 0, true);
             done();
-        }, {city: 'beijing'});
+        });
     });
 });
 
 
 describe('all_cities', function(){
-    it('', function(done){
+    it('api test', function(done){
         pm25.all_cities(function(err, data){
             assert.equal(err, null);
             // console.log(data);
@@ -143,7 +143,7 @@ describe('all_cities', function(){
 });
 
 describe('aqi_ranking', function(){
-    it('', function(done){
+    it('api test', function(done){
         pm25.aqi_ranking(function(err, data){
             assert.equal(err, null);
             // console.log(data);
