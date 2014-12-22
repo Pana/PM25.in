@@ -13,8 +13,8 @@ PM25.in
 ## How to use
 公有token: `"5j1znBVAsnSf5xQyNQyq"` 
 
-```
-    var pm25 =require('pm25in');
+```js
+    var pm25 = require('pm25in');
     pm25.token = "5j1znBVAsnSf5xQyNQyq"  // 设置访问token
     pm25.aqi_ranking(function(err, data){
         console.log(err, data);
